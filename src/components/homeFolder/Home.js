@@ -5,7 +5,7 @@ import Footer from "../Footer";
 
 const HomeCard = () => {
   return (
-    <div className="bg-homeMobile bg-cover  bg-slate-700 bg-center h-auto md:bg-homeTablet lg:bg-homeDesktop lg:h-auto ">
+    <div className="bg-homeMobile bg-cover  bg-slate-700 bg-center h-screen md:bg-homeTablet lg:bg-homeDesktop lg:h-screen ">
       <Header />
       <section className="flex flex-col  lg:flex-row lg:justify-between lg:mt-10">
         <div className="mx-6 text-center mt-14 md:mt-24 md:mx-40 lg:w-1/2 lg:mx-0 lg:text-left lg:ml-40">
