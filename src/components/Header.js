@@ -6,7 +6,7 @@ import { Link, NavLink } from "react-router-dom";
 const Header = () => {
 
   const activeNavStyling = "md:ml-12 md:py-8 lg:ml-16 lg:pl-0 lg:py-5 lg:tracking-custom border-b-2 border-solid border-white";
-  const navStyling = "md:ml-12 md:py-8 lg:ml-16 lg:pl-0 lg:py-5 lg:tracking-custom hover:border-b-2 hover:border-solid hover:border-gray-500 hover:border-center transition ease-in duration-500"
+  const navStyling = "md:ml-12 md:py-8 lg:ml-16 lg:pl-0 lg:py-5 lg:tracking-custom hover:border-b-2 hover:border-solid hover:border-gray-500  transition ease-in duration-500"
 
   return (
     <header className=" w-full">
