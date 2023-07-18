@@ -49,7 +49,7 @@ const TechCard = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.75, ease: easeOut }}
-      className="bg-techMobile h-auto bg-cover  bg-slate-700 bg-center md:bg-techTablet  lg:bg-techDesktop lg:h-auto "
+      className="bg-techMobile h-auto bg-cover  bg-slate-700 bg-center md:bg-techTablet md:h-screen  lg:bg-techDesktop lg:h-auto "
     >
       <Header />
       <h2 className="mt-9 text-center font-sans text-white text-base tracking-custom md:mt-10 md:text-left md:ml-10 md:text-smallerText lg:hidden">
