@@ -10,12 +10,12 @@ export const DestinationData = [
         destinationDetails:"See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.",
         destinationDistance:"384,400 KM",
         destinationTravelTime:"3 DAYS",
-        destinationImage: moonImage
+        destinationImage: moonImage,
     },
     {
         id:2,
         destinationName: "MARS",
-        destinationDetails:"Don’t forget to pack your hiking boots. You’ll need them to tackle Olympus Mons, the tallest planetary mountain in our solar system. It’s two and a half times the size of Everest!",
+        destinationDetails:"Don’t forget to pack your hiking boots. You’ll need them to tackle Olympus Mons, the tallest planetary mountain in our solar system. It’s two and a half times the size of Everest!. It is also named after the Roman god of war.",
         destinationDistance:"225 MIL. KM",
         destinationTravelTime:"9 MONTHS",
         destinationImage: marsImage

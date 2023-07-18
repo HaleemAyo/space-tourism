@@ -1,7 +1,6 @@
 import React from "react";
 import Header from "../Header";
 import { Link } from "react-router-dom";
-import Footer from "../Footer";
 import { easeOut, motion } from "framer-motion";
 
 
@@ -11,7 +10,7 @@ const HomeCard = () => {
       initial={{opacity:0}}
       animate={{opacity:1}}
       transition={{duration:0.75, ease:easeOut}}
-      className="bg-homeMobile bg-cover  bg-slate-700 bg-center h-auto md:bg-homeTablet lg:bg-homeDesktop lg:h-auto " 
+      className="bg-homeMobile bg-cover  bg-gray-700 bg-center h-screen md:bg-homeTablet md:h-screen lg:bg-homeDesktop" 
       >
       <Header />
       <section className="flex flex-col  lg:flex-row lg:justify-between lg:mt-10">
@@ -34,8 +33,6 @@ const HomeCard = () => {
             </Link>
         </div>
       </section>
-
-      <Footer />
     </motion.div>
   );
 };

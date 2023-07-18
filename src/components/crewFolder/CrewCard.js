@@ -39,7 +39,8 @@ const CrewCard = () => {
             initial={{opacity:0}}
             animate={{opacity:1}}
             transition={{duration:0.75, ease:easeOut}}
-            className="bg-crewMobile h-screen  bg-cover md:bg-crewTablet md:h-auto lg:bg-crewDeskop"
+            className="bg-crewMobile h-auto bg-gray-700   bg-cover md:bg-crewTablet lg:bg-crewDeskop"
+            loading
         >
             <Header />
 

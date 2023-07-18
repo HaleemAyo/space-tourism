@@ -25,6 +25,7 @@ const DestinationCard = () =>{
         destinationName: item.destinationName,
         destinationDetails: item.destinationDetails,
         destinationImage: item.destinationImage,
+        destinationImageBlurry: item.destinationImageBlurry,
         destinationDistance: item.destinationDistance,
         destinationTravelTime: item.destinationTravelTime,
         id: item.id,
@@ -45,12 +46,14 @@ const DestinationCard = () =>{
                 <div className="mt-8">
                 <p className="font-sans text-white text-base md:text-left md:pl-9 lg:hidden"><span className="opacity-25 pr-5">01</span>PICK YOUR DESTINATION</p>
                 <div className="w-globeMobileWidth h-globeMobileHeight mx-auto mt-8 md:w-globeTabletWidth md:h-globeTabletHeight md:mt-14 lg:w-globeDesktopWidth lg:h-globeDesktopHeight lg:ml-44">
-                    <img src={destinationData.destinationImage} alt={destinationData.destinationName} className="w-full h-full"/>
+                    <img src={destinationData.destinationImage} alt={destinationData.destinationName} className="w-full h-full" loading="lazy"/>
                 </div>
                 </div>
 
                 <div className="mt-7 md:mt-14 lg:w-1/2 lg:mt-20">
                     <div className="text-customPurple tracking-custom text-sm  mx-16 md:text-base  md:mx-60   lg:text-base lg:mx-24 lg:text-left">
+                        
+                        {/* Mapping through the json file */}
                         {DestinationData.map((item)=>{
                             return(
                         <NavLink 
